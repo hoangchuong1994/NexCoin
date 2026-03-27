@@ -19,7 +19,8 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@i18n-messages/*": ["./src/i18n/messages/*"]
     }
   },
   "include": [
