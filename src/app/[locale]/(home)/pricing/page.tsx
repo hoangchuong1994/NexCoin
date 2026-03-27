@@ -209,7 +209,7 @@ export default function PricingPage() {
                   <ul className="mb-8 space-y-4">
                     {plan.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-start gap-3">
-                        <Check className="mt-0.5 h-5 w-5 flex-shrink-0 text-green-400" />
+                        <Check className="mt-0.5 h-5 w-5 shrink-0 text-green-400" />
                         <span className="text-[#9fb4d5]">{feature}</span>
                       </li>
                     ))}
@@ -285,7 +285,7 @@ export default function PricingPage() {
                 className="rounded-xl border border-[rgba(255,255,255,0.08)] bg-[rgba(255,255,255,0.04)] p-6 backdrop-blur-sm"
               >
                 <div className="flex items-start gap-4">
-                  <HelpCircle className="mt-1 h-6 w-6 flex-shrink-0 text-blue-400" />
+                  <HelpCircle className="mt-1 h-6 w-6 shrink-0 text-blue-400" />
                   <div>
                     <h3 className="mb-2 text-lg font-semibold text-white">{faq.question}</h3>
                     <p className="text-[#9fb4d5]">{faq.answer}</p>

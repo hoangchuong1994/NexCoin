@@ -3,7 +3,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import Header from '@/components/Header';
 import Footer from '@/components/sections/Footer';
 import {
   Shield,
@@ -203,7 +202,7 @@ export default function SecurityPage() {
                 key={index}
                 className="flex gap-6 rounded-2xl border border-[rgba(255,255,255,0.08)] bg-[rgba(255,255,255,0.04)] p-8 backdrop-blur-sm"
               >
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-linear-to-br from-blue-600/20 to-indigo-600/20">
                     <indicator.icon className="h-6 w-6 text-blue-400" />
                   </div>

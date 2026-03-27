@@ -82,7 +82,7 @@ export default function Hero() {
           </div>
 
           {/* Right Side - 3D Dashboard Preview */}
-          <div className="perspective relative hidden h-[500px] lg:block">
+          <div className="perspective relative hidden h-125 lg:block">
             {/* Main Dashboard Card */}
             <div
               className="absolute inset-0 rounded-2xl border border-[rgba(255,255,255,0.1)] bg-linear-to-br from-[rgba(255,255,255,0.08)] to-[rgba(255,255,255,0.02)] p-6 shadow-2xl backdrop-blur-2xl"

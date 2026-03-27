@@ -128,7 +128,7 @@ export default function ChartPanel() {
       </div>
 
       {/* Chart */}
-      <div ref={chartContainerRef} className="h-[500px] w-full" />
+      <div ref={chartContainerRef} className="h-125 w-full" />
     </div>
   );
 }
