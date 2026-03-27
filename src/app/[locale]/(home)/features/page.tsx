@@ -81,7 +81,7 @@ export default function FeaturesPage() {
   return (
     <main className="w-full bg-linear-to-b from-[#020617] via-[#0b1120] to-[#020617]">
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] w-full overflow-hidden bg-linear-to-br from-[#020617] via-[#0b1120] to-[#1a1f3a] pt-32 lg:pt-40">
+      <section className="relative min-h-screen w-full overflow-hidden bg-linear-to-br from-[#020617] via-[#0b1120] to-[#1a1f3a] pt-32 lg:pt-40">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -top-40 -right-40 h-96 w-96 animate-pulse rounded-full bg-linear-to-br from-blue-600/20 to-purple-600/20 opacity-40 blur-3xl" />
           <div className="absolute top-1/3 -left-32 h-80 w-80 animate-pulse rounded-full bg-linear-to-tr from-indigo-600/15 to-blue-600/15 opacity-30 blur-3xl delay-1000" />
