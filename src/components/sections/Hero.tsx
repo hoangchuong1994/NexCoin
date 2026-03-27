@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Play } from 'lucide-react';
 
@@ -46,13 +47,15 @@ export default function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col gap-4 sm:flex-row sm:justify-center lg:justify-start">
-              <Button
-                size="lg"
-                className="group relative h-14 bg-linear-to-r from-blue-600 to-indigo-600 px-8 text-base font-semibold text-white shadow-xl shadow-blue-600/50 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-600/60"
-              >
-                Start Trading
-                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-              </Button>
+              <Link href="/dashboard">
+                <Button
+                  size="lg"
+                  className="group relative h-14 bg-linear-to-r from-blue-600 to-indigo-600 px-8 text-base font-semibold text-white shadow-xl shadow-blue-600/50 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-600/60"
+                >
+                  Start Trading
+                  <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                </Button>
+              </Link>
 
               <Button
                 variant="outline"

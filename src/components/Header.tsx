@@ -6,10 +6,10 @@ import { Logo } from '@/components/Logo';
 import { Menu, X } from 'lucide-react';
 
 const navLinks = [
-  { label: 'Features', href: '#features' },
-  { label: 'Pricing', href: '#pricing' },
-  { label: 'Security', href: '#security' },
-  { label: 'Docs', href: '#docs' },
+  { label: 'Features', href: '/features' },
+  { label: 'Pricing', href: '/pricing' },
+  { label: 'Security', href: '/security' },
+  { label: 'Docs', href: '/docs' },
 ];
 
 export default function Header() {
