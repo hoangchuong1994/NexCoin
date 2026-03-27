@@ -39,7 +39,7 @@ export default function TradingPreview() {
             <div className="space-y-3">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex items-start gap-3">
-                  <CheckCircle className="mt-1 h-5 w-5 flex-shrink-0 text-blue-400" />
+                  <CheckCircle className="mt-1 h-5 w-5 shrink-0 text-blue-400" />
                   <span className="text-[#9fb4d5]">{benefit}</span>
                 </div>
               ))}
@@ -47,7 +47,7 @@ export default function TradingPreview() {
           </div>
 
           {/* Right - Dashboard Preview */}
-          <div className="relative h-[400px] lg:h-[500px]">
+          <div className="relative h-96 lg:h-full">
             {/* Main preview card */}
             <div className="absolute inset-0 rounded-2xl border border-[rgba(255,255,255,0.1)] bg-linear-to-br from-[rgba(59,130,246,0.08)] via-[rgba(99,102,241,0.04)] to-[rgba(255,255,255,0.02)] p-6 shadow-2xl backdrop-blur-xl">
               {/* Header */}

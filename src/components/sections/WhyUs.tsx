@@ -54,7 +54,7 @@ export default function WhyUs() {
                 className="group flex gap-6 rounded-xl border border-[rgba(255,255,255,0.08)] bg-linear-to-br from-[rgba(255,255,255,0.04)] to-[rgba(255,255,255,0.01)] p-8 transition-all duration-300 hover:border-[rgba(255,255,255,0.15)]"
               >
                 {/* Icon Container */}
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-linear-to-br from-blue-600/30 to-indigo-600/20">
                     <Icon className="h-6 w-6 text-blue-400" />
                   </div>
