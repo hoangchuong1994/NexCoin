@@ -3,7 +3,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import Footer from '@/components/sections/Footer';
 import {
   Shield,
   Lock,
@@ -298,8 +297,6 @@ export default function SecurityPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   );
 }

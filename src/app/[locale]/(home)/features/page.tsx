@@ -3,8 +3,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import Header from '@/components/Header';
-import Footer from '@/components/sections/Footer';
 import {
   BarChart3,
   Zap,
@@ -225,8 +223,6 @@ export default function FeaturesPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   );
 }

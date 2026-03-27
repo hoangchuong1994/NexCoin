@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import Header from '@/components/Header';
-import Footer from '@/components/sections/Footer';
 import { Check, Star, Zap, HelpCircle } from 'lucide-react';
 
 const plans = [
@@ -329,8 +328,6 @@ export default function PricingPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   );
 }

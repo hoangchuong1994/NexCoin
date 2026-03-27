@@ -2,8 +2,6 @@
 
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import Header from '@/components/Header';
-import Footer from '@/components/sections/Footer';
 import {
   Book,
   Code,
@@ -366,8 +364,6 @@ export default function DocsPage() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </main>
   );
 }
