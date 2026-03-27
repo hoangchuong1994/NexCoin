@@ -1,5 +1,4 @@
 ﻿import React from 'react';
-import Link from 'next/link';
 import Hero from '@/components/sections/Hero';
 import Trust from '@/components/sections/Trust';
 import Features from '@/components/sections/Features';
@@ -16,16 +15,6 @@ export default function LocalePage() {
       <TradingPreview />
       <WhyUs />
       <CTA />
-
-      {/* Temporary link to dashboard for testing */}
-      <div className="fixed right-4 bottom-4 z-50">
-        <Link
-          href="/dashboard"
-          className="rounded-lg bg-blue-600 px-4 py-2 text-white transition-colors hover:bg-blue-700"
-        >
-          View Dashboard
-        </Link>
-      </div>
     </main>
   );
 }
